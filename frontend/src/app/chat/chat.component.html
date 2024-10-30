@@ -1,0 +1,12 @@
+<div class="chat-container">
+    <h1>Patient Proxy Chatbot</h1>
+    <div *ngFor="let msg of chatHistory">
+      <p><strong>You:</strong> {{ msg.user }}</p>
+      <p><strong>Patient:</strong> {{ msg.bot }}</p>
+      <small>Intent: {{ msg.intent }} | Emotion: {{ msg.emotion }}</small>
+    </div>
+  
+    <input [(ngModel)]="userMessage" placeholder="Type your message..." />
+    <button (click)="sendMessage()">Send</button>
+  </div>
+  

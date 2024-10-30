@@ -1,0 +1,30 @@
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .chat-container h1 {
+    text-align: center;
+  }
+  
+  .chat-container p {
+    margin: 5px 0;
+  }
+  
+  .chat-container input {
+    width: 80%;
+    padding: 8px;
+    margin-right: 5px;
+  }
+  
+  .chat-container button {
+    padding: 8px;
+  }
+  
+  .chat-container small {
+    display: block;
+    color: gray;
+    font-size: 0.8em;
+  }
+  
